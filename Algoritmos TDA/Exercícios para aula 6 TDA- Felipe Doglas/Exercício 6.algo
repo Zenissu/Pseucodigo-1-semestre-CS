@@ -1,0 +1,25 @@
+inicio
+real menor, num, contadorMaior=0, contadorMenor=0
+logico flag = falso
+faça{
+    escreva("Escreva um número: \n Escreva o número'0'para finalizar o processo")
+    leia(num)
+    se(flag == falso){
+        menor = num
+        flag = verdadeiro 
+    }
+    senao se(menor<num){
+        menor=num
+    }
+    senao se(num>0){
+        contadorMaior++
+    }
+    senao se(num<0){
+        contadorMenor++
+    }   
+    senao("Digite um número")   
+}enquanto(num=!0)
+escreva("O  total de números positivos e: " + contadorMaior)
+escreva("O  total de números negativos e: " + contadorMenor)
+escreva("O menor e igual a: " + menor)
+fim

@@ -1,0 +1,7 @@
+inicio
+ faça(i = 0; i <= 10; i++) {
+        faça(j = 0; j <= 10; j++) {
+            escreva( i +"x"+ j + "=" + i * j)
+        }   
+    }
+fim

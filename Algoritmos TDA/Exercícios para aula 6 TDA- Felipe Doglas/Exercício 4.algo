@@ -1,0 +1,17 @@
+inicio
+inteiro nota, quant, media,c
+
+escreva("Quantas medias serão calculadas?")
+leia(quant)
+
+para(c=0;c<quant;c++){
+    enquanto(nota<0){
+        escreva("Escreva a nota do aluno")
+        leia(nota)
+    }
+        media += nota   
+    }
+ escreva("A média e equivalente a : " + media/quant)
+
+
+fim

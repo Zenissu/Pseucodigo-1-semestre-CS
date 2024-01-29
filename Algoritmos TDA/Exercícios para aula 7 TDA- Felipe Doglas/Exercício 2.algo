@@ -1,0 +1,11 @@
+inicio
+inteiro num
+escreva("Escreva um número:")
+leia(num)
+se(num%10 == 0){
+    escreva("O número "+ num + "é múltiplo de dez")
+}
+senao{
+    escreva("O número "+ num + " não é múltiplo de dez")
+}
+fim

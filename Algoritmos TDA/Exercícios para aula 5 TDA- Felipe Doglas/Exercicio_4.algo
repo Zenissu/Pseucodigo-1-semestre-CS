@@ -1,0 +1,62 @@
+inicio
+
+inteiro mes
+
+escreva("Escreva o número do mês: ")
+leia(mes)
+
+escolha(mes){
+    
+    caso (mes == '1'):
+    escreva("Janeiro")
+    pare 
+
+    caso (mes == '2'):
+    escreva("Fevereiro")
+    pare 
+
+    caso (mes == '3'):
+    escreva("Março")
+    pare
+    
+    caso (mes == '4'):
+    escreva("Abril")
+    pare
+
+    caso (mes == '5'):
+    escreva("Maio")
+    pare 
+
+    caso (mes == '6'):
+    escreva("Junho")
+    pare 
+
+    caso (mes == '7'):
+    escreva("Julho")
+    pare
+    
+    caso (mes == '8'):
+    escreva("Agosto")
+    pare
+
+    caso (mes == '9'):
+    escreva("Setembro")
+    pare 
+
+    caso (mes == '10'):
+    escreva("Outubro")
+    pare 
+
+    caso (mes == '11'):
+    escreva("Novembro")
+    pare
+    
+    caso (mes == '12'):
+    escreva("Dezembro")
+    pare
+    
+    padrao:
+    escreva("!Não existe mês com este número!")
+}   
+
+fim

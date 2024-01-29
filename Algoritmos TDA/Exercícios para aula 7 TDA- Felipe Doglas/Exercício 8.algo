@@ -1,0 +1,12 @@
+inicio
+inteiro idade, anoatual, nascimento, futuro
+escreva("Escreva ano que você nasceu ")
+leia(nascimento)
+escreva("Escreva o ano atual")
+leia(anoatual)
+
+idade=anoatual-nascimento
+futuro=2050-nascimento
+escreva("Sua idade e igual a " + idade)
+escreva("Sua idade em 2050 será igual a " + futuro)
+fim

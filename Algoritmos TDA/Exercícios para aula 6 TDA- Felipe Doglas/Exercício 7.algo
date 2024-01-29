@@ -1,0 +1,23 @@
+inicio
+literal sexo, altura, alturam, alturaf, cm=0,cf=0
+faça{
+    escreva("Escreva o número'0'para finalizar o processo\n")
+    escreva("Escreva sua sexo")
+    leia(sexo)
+    escreva("Escreva seu altura")
+    leia(altura)
+    se(sexo=="M" ou sexo=="m"){
+        alturam+=altura
+        cm++
+    }
+    senao se(sexo=="F" ou sexo=="f"){
+        alturaf+=altura
+        cf++
+    }   
+    senao("Digite um valor valido")   
+}enquanto(num=!0)
+escreva("A média da altura masculina equivale a : " + alturam/cm)
+escreva("A média da altura feminina equivale a " + alturaf/cf)
+escreva("O menor e igual a: " + menor)
+
+fim

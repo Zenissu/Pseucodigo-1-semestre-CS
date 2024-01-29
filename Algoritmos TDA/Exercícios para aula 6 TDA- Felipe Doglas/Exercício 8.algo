@@ -1,0 +1,25 @@
+inicio
+inteiro cA, i, num
+real media, nota
+cA=0
+media=0
+escreva("Digite o número de notas a serem cálculadas")
+leia(num)
+enquanto(i=1; i<=num; i++){
+faça{
+    escreva("Escreva" + i + "ª nota")
+    leia(nota)
+     
+    se(nota>=6){
+        cA++
+    }
+    senao se(nota<0 ou nota>10){
+        escreva("Nota inválida")
+    }
+    
+    }enquanto(nota<0 ou nota>10)
+    media += nota
+}
+escreva("O  total de alunos aprovados: " + cA)
+escreva("Media total da turma" + media/80)
+fim

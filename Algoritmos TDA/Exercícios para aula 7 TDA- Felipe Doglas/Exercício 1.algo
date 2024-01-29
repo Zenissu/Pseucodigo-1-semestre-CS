@@ -1,0 +1,7 @@
+inicio
+inteiro idade,totaldedias
+escreva("Escreva sua idade")
+leia(idade)
+totaldedias = ((idade+1)*12)*30
+escreva("O total dias vividos por você são" + totaldedias)
+fim

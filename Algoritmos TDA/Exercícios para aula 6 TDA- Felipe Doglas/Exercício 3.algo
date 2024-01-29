@@ -1,0 +1,18 @@
+inicio
+inteiro n, i 
+real s = 0
+    escreva("Escreva um número: ")
+    leia(n)
+se(n>=0){
+    para(i=1;i<=n;i++){
+        s+=1/i
+}
+    escreva("O resultado equivale a: " + s)
+}
+senao{
+    escreva("Digite um número inteiro")
+}
+
+
+
+fim

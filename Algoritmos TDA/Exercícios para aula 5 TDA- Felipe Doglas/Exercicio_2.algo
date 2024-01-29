@@ -1,0 +1,33 @@
+inicio
+inteiro digito
+
+escreva("Escreva o último digito da sua placa: ")
+leia(digito)
+
+escolha(digito){
+    
+    caso (digito == '1' ou digito == '2'):
+    escreva("O rodizio de seu veiculo será feito na segunda-feira")
+    pare 
+
+    caso (digito == '3' ou digito == '4'):
+    escreva("O rodizio de seu veiculo será feito na terça-feira")
+    pare 
+
+    caso (digito == '5' ou digito == '6'):
+    escreva("O rodizio de seu veiculo será feito na quarta-feira")
+    pare
+    
+    caso (digito == '7' ou digito == '8'):
+    escreva("O rodizio de seu veiculo será feito na quinta-feira")
+    pare
+
+    caso (digito == '9' ou digito == '0'):
+    escreva("O rodizio de seu veiculo será feito na sexta-feira")
+    pare 
+    
+    padrao:
+    escreva("!Informações digitadas erroneamente por favor tente novamente!")
+}   
+
+fim

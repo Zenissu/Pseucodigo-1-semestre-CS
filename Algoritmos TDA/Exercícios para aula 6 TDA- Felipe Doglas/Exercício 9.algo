@@ -1,0 +1,29 @@
+inicio
+
+real mediaSM, contadorSF, sexo, c, cSF, cM, salario, mediaidade
+
+c=0
+cSF=0
+cM=0
+
+faça{
+    escreva("Qual sua idade ?")
+    leia(idade)
+     c++
+    escreva("Qual seu sexo ?\n'M' para masculino\n'F' para feminino")
+    leia(sexo)
+    escreva("Qual seu salário ?")
+    leia(salario)
+    mediaidade+=idade
+    se(sexo=="M" ou sexo=="m"){
+        mediaSM+=salario
+        cM++
+    }
+    senao se(sexo=="F" ou sexo=="f" && salario<600){
+        cSF++
+    } 
+}enquanto(idade>=0)
+escreva("A média total das idades: " + mediaidade/c)
+escreva("O  total de salário masculino: " + mediaSM/cM)
+escreva("A quantidade de mulheres que recebem menos que R$600,00" + cSF)
+fim

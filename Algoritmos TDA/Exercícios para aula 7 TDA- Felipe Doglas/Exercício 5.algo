@@ -1,0 +1,25 @@
+inicio
+inteiro idade, i, pv,media
+media = 0
+media/npv
+pv = 0
+npv = 0
+enquanto(i=0;i<500,i++){
+    enquanto(idade<0 ou idade>100){
+        escreva("Escreva a idade do " + (i+1) + "º aluno")
+        leia(idade)
+}
+    se(idade<16){
+    media+=idade
+    npv++
+}
+    se(idade>=16){
+    pv++
+}
+media=media/npv
+
+escreva("O total de alunos que podem votar são " + pv)
+escreva("A média dos alunos que não são eleitores é " + media)    
+
+
+fim

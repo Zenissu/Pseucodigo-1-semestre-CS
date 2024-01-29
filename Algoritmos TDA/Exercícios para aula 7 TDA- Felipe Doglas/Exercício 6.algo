@@ -1,0 +1,24 @@
+inicio
+inteiro totals, totalF, totalFn, percentualdenãof, sexo, opcao, i 
+totals = 0
+totalF = 0
+totalFn = 0
+enquanto(i=1;i<=200;i++){
+escreva("O cliente se interessa pelo produto ?\n '1' para sim \n '2' para não")
+leia(opcao)
+escreva("Qual é o sexo do cliente ?\n 'M' para masculino \n 'F' para feminino")
+leia(sexo)
+se(opcao==1){
+    totals = totals + 1
+}
+se(sexo==F ou sexo==f){
+    totalf = totalf + 1
+}
+se(sexo==F ou sexo==f e opcao==2){
+    totalFn = totalFn + 1
+}
+}
+percentualdenãof = totalFn/totalf*100
+escreva("O número de pessoas que disseram sim: " + totals)
+escreva("O percentual de pessoas do sexo feminino que responderam não: " + percentualdenãof + "%")
+fim

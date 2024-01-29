@@ -1,0 +1,13 @@
+inicio
+inteiro salario, salariofinal, comissao, vendas, nomedosujeito
+escreva("Escreva o nome do funcionario: ")
+leia(nomedosujeito)
+escreva("Escreva o salário do funcionario " + nomedosujeito)
+leia(salario)
+escreva("Escreva o total de vendas do funcionario")
+leia(vendas)
+comissao=(vendas/100)*4
+salariofinal=salario+comissao
+escreva("Comissão igual a: " + comissao)
+escreva("O total que o funcionario " + nomedosujeito + "irá receber será igual a: " + salariofinal)
+fim

@@ -1,0 +1,36 @@
+inicio
+real salario
+literal posicao
+
+escreva("Escreva seu cargo na empresa: ")
+leia(posicao)
+
+escreva("Escreva seu salario atual para saber seu aumento: ")
+leia(salario)
+
+escolha(posicao){
+    caso (posicao == 'Escriturário' ou posicao == 'escriturário'):
+    escreva("Seu aumento será equivalente a: " + (salario*50/100))
+    pare 
+
+    caso (posicao == 'Secretário' ou posicao == 'secretário'):
+    escreva("Seu aumento será equivalente a: " + (salario*35/100))
+    pare 
+
+    caso (posicao == 'Caixa' ou posicao == 'caixa'):
+    escreva("Seu aumento será equivalente a: " + (salario*20/100))
+    pare
+    
+    caso (posicao =='Gerente' ou posicao == 'gerente'):
+    escreva("Seu aumento será equivalente a: " + (salario*10/100))
+    pare
+
+    caso (posicao == 'Diretor' ou posicao == 'diretor'):
+    escreva("Não existe alteração no salário do diretor, desculpe diretor 😬")
+    pare 
+    
+    padrao:
+    escreva("!Informações digitadas erroneamente por favor tente novamente!")
+}   
+
+fim

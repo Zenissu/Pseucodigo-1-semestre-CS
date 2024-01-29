@@ -1,0 +1,23 @@
+inicio
+real salario, i, aumento, funcionario
+faça{
+    escreva("Escreva o nome do fúncionario")
+    leia(funcionario)
+    escreva("Escreva o salario atual para saber o aumento:")
+    leia(salario)
+    
+    se(salario<=1500){
+        aumento=salario+((salario/100)*10)
+        escreva("O funcionario "+ funcionario + " recebera " + aumento)
+    }  
+    senao se(salario>1500 e salario<3000 ){
+        aumento=salario+((salario/100)*2)
+        escreva("O funcionario "+ funcionario + " recebera " + aumento)
+    }
+    senao{
+        escreva("Você não tem direito a algum aumento")
+    }
+}enquanto(i=1;i<=10;i++)
+
+
+fim

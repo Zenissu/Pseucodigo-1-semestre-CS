@@ -1,0 +1,42 @@
+inicio
+
+literal destino, viagem 
+
+escreva("Escreva o destino desejado: \n '1'Região Norte \n '2'Região Nordeste \n '3'Região Centro-Oeste \n '4'Região Sul")
+leia(destino)
+
+escreva("Escreva o tipo de viagem: \n '1' Para apenas ida. \n '2' Para ida e volta.")
+leia(viagem)
+
+    se(destino == 1 e viagem == 1){
+escreva("A viagem de apenas ida a região norte custará: 500,00 R$")
+}
+senão se(destino == 1 e viagem == 2){
+escreva("A viagem de apenas ida a região norte custará: 900,00 R$")
+}
+senão se(destino == 2 e viagem == 1){
+escreva("A viagem de apenas ida a região norte custará: 350,00 R$")
+}
+senão se(destino == 2 e viagem == 2){
+escreva("A viagem de apenas ida a região norte custará: 650,00 R$")
+}
+senão se(destino == 3 e viagem == 1){
+escreva("A viagem de apenas ida a região norte custará: 350,00 R$")
+}
+senão se(destino == 3 e viagem == 2){
+escreva("A viagem de apenas ida a região norte custará: 600,00 R$")
+}
+senão se(destino == 4 e viagem == 1){
+escreva("A viagem de apenas ida a região norte custará: 350,00 R$")
+}
+senão se(destino == 4 e viagem == 2){
+escreva("A viagem de apenas ida a região norte custará: 600,00 R$")
+}
+senão se(destino == 5 e viagem == 1){
+escreva("A viagem de apenas ida a região norte custará: 600,00 R$")
+}
+senão se(destino == 5 e viagem == 2){
+escreva("A viagem de apenas ida a região norte custará: 550,00 R$")
+}
+senão ("!Dados informados erroneos, por favor seguir as instruções informadas!")
+

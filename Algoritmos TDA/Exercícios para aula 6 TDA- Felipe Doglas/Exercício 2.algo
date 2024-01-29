@@ -1,0 +1,10 @@
+inicio
+inteiro i
+enquanto(i=0;i==52;i++){
+    escreva("Número:" + i + "\n")
+    se(i==52){pare}
+    }
+    enquanto(i=52;i<=100;i+=2){
+        escreva("Número:" + i + "\n") 
+    }
+fim

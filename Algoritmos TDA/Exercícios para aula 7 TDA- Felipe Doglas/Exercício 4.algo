@@ -1,0 +1,19 @@
+inicio
+caractere senha,login
+escreva("Escreva seu login: ")
+leia(login)
+escreva("Escreva sua senha")
+leia(senha)
+metodo(senha)
+fim
+
+caractere metodo(caractere senha)
+caractere verificarsenha= 
+se(senha==4531){
+    escreva("Acesso liberado")
+}
+senao{
+        escreva("Acesso Negado")
+}
+retorne (verificarsenha)
+fim

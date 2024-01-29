@@ -1,0 +1,42 @@
+inicio
+inteiro a, b, calculo, choice
+
+faça{
+escreva("Que tipo de calculo você deseja fazer ?\n'1'para soma\n'2'para subtração \n'3'para multiplicação \n'4'para sair")
+leia(choice)
+se(choice!=1 ou choice!=2 ou choice!=3 ou choice!=4){
+    escreva("Por favor siga as instruções: \n'1'para soma\n'2'para subtração \n'3'para multiplicação \n'4'para sair")
+    leia(choice)
+}
+escreva("O primeiro valor")
+leia(a)
+escreva("O segundo valor")
+leia(b)
+se(choice==1){
+    escreva("O primeiro valor")
+    leia(a)
+    escreva("O segundo valor")
+    leia(b) 
+    calculo=a+b 
+    escreva("O resultado e " + calculo)
+}
+senao se(choice==2){
+    escreva("O primeiro valor")
+    leia(a)
+    escreva("O segundo valor")
+    leia(b) 
+    calculo=a-b 
+    escreva("O resultado e " + calculo)
+}
+senao(choice==3){
+       escreva("O primeiro valor")
+    leia(a)
+    escreva("O segundo valor")
+    leia(b) 
+    calculo=a*b 
+    escreva("O resultado e " + calculo)
+}
+escreva("Se desejar continuar ou terminar selecione outra opção: \n'1'para soma\n'2'para subtração \n'3'para multiplicação \n'4'para sair")
+leia(choice)
+}enquanto(choice=!4)
+fim

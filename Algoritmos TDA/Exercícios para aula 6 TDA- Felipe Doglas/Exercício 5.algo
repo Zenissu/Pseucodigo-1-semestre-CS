@@ -1,0 +1,23 @@
+inicio
+inteiro num, media, c, maior
+caractere resp
+repita
+    escreva("Escreva um número: ")
+    leia(num)
+    maior=0
+    se(num>maior){
+        maior=num
+    }
+    c++
+    escreva("Deseja continuar\n1-Sim\n2-Não")
+    leia(resp)
+        se(resp==2 ou resp==Não ou resp==N ou resp==n){
+            pare
+        }
+    
+media += num   
+enquanto(resp==1 ou resp==Sim ou resp==S ou resp==s)
+escreva("A media e equivalente a:" + media/c)
+escreva("O maior número" + maior)
+
+fim

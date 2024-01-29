@@ -1,0 +1,15 @@
+inicio
+inteiro a, b, i , anospassados
+
+a = 1901
+b = 2020
+anospassados = b-a
+
+faça{
+    a++
+    se(a%4==0){
+    escreva(a)
+    }
+}enquanto(i=0;i<anospassados;i++)
+
+fim

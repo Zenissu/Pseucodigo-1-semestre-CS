@@ -1,0 +1,19 @@
+inicio
+inteiro a, D
+escreva("Escreva a aceleração de frenagem de seu veículo: ")
+leia(a)
+verificar(D)
+fim
+inteiro D(inteiro a)
+D=400/2*a
+retorne(D)
+fim
+caractere verificar(inteiro D)
+se(D >= 100){
+    escreva("Bateu")
+}
+senao{
+    escreva("Ufa")
+}
+retorne(verificação)
+fim
